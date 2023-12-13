@@ -1,0 +1,73 @@
+
+.plans{
+    background-image: url('../../dist/images/background-plans.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+
+    h2{
+        font-size: 50px;
+        text-align: center;
+        padding-top: 70px;
+        color: #fff;
+    }
+
+    &__list{
+        display: flex;
+        padding: 40px 15px;
+        justify-content: space-around;
+
+        &__item{
+            text-align: center;
+
+            h3{
+                padding-top: 60px;
+                text-align: center;
+                font-size: 50px;
+            }
+
+            h4{
+                padding-top: 10px;
+                text-align: center;
+                font-size: 42px;
+            }
+
+            img{
+                text-align: center;
+            }
+
+            &:nth-child(2){
+                position: relative;
+                top: -35px;
+                background-image: url('../../dist/images/plano-popular.png');
+                background-size: cover;
+                padding: 20px;
+            }
+
+            &:nth-child(1){
+                background-image: url('../../dist/images/planos.png');
+                background-size: cover;
+                padding: 20px;
+            }
+            
+            &:nth-child(3){
+                background-image: url('../../dist/images/planos.png');
+                background-size: cover;
+                padding: 20px;
+            }
+        }
+    }
+
+    .button{
+        display:flex;
+        width: 75%;
+        padding: 15px 15px;
+        font-size: 16px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        border: none;
+    }
+}
+

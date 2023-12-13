@@ -4,9 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__container">
+            <div>
+                <img class="header__logo" src="dist/images/logo.png" alt="logo do site">
+            </div>
+            <ul class="header__links">
+                <li class="header__links__item"><a class="button button--assinar" href="#plans">Conheça Nossos Planos</a></li>
+                <li class="header__links__item"><a class="button button--entrar" href="#">Entrar</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="banner">
+        <h1 class="banner__title">O CATÁLAGO <span>MAIS COMPLETO</span></h1>
+        <ul class="banner__content">
+            <li class="banner__content__item">
+                <div>
+                    <i class="bi bi-badge-4k-fill"></i>
+                    <h4>Desfrute da melhor qualidade de imagem</h4>
+                </div>
+            </li>
+            <li class="banner__content__item">
+                <div>
+                    <i class="bi bi-badge-ad-fill"></i>
+                    <h4>Sem propagandas</h4>
+                </div>
+            </li>
+            <li class="banner__content__item">
+                <div>
+                    <i class="bi bi-file-arrow-down-fill"></i>
+                    <h4>Assista mesmo sem internet</h4>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="best__animes">
+        <h2>OS <span>MELHORES</span> ANIMES</h2>
+        <ul class="best__animes__list">
+            <li class="best__animes__list__item">
+                <a href="">
+                    <div class="best__animes__list__item__img-1"></div>
+                </a>
+            </li>
+            <li class="best__animes__list__item">
+                <a href="">
+                    <div class="best__animes__list__item__img-2"></div>
+                </a>
+            </li>
+            <li class="best__animes__list__item">
+                <a href="">
+                    <div class="best__animes__list__item__img-3"></div>
+                </a>
+            </li>
+            <li class="best__animes__list__item">
+                <a href="">
+                    <div class="best__animes__list__item__img-4"></div>
+                </a>
+            </li>
+            <li class="best__animes__list__item">
+                <div class="best__animes__list__item__img-5"></div>
+            </li>
+        </ul>
+    </section>
+    <section class="plans" id="plans">
+        <h2>Escolha seu plano</h2>
+        <ul class="plans__list">
+            <li class="plans__list__item">
+                <h3>1 mês</h3>
+                <h4>R$ 18,90</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, iure quibusdam sunt facilis nemo reiciendis itaque maiores maxime excepturi dicta similique harum nulla, cupiditate voluptates libero optio error hic distinctio?</p>
+                <button class="button button-plans">ESCOLHA O PLANO MENSAL</button>
+            </li>
+            <li class="plans__list__item">
+                <h3>12 meses</h3>
+                <h4>R$ 219,90</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, iure quibusdam sunt facilis nemo reiciendis itaque maiores maxime excepturi dicta similique harum nulla, cupiditate voluptates libero optio error hic distinctio?</p>
+                <button class="button button-plans">ESCOLHA O PLANO ANUAL</button>
+            </li>
+            <li class="plans__list__item">
+                <h3>3 meses</h3>
+                <h4>R$ 74,90</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, iure quibusdam sunt facilis nemo reiciendis itaque maiores maxime excepturi dicta similique harum nulla, cupiditate voluptates libero optio error hic distinctio?</p>
+                <button class="button button-plans">ESCOLHA O PLANO TRIMESTRAL</button>
+            </li>
+        </ul>
+    </section>
+    <script src="dist/js/main.js"></script>
 </body>
 </html>

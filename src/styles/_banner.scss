@@ -1,0 +1,48 @@
+
+.banner{
+    height: 100vh;
+    background-image: url('../../dist/images/naruto-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__title{
+        position: relative;
+        top: 30%;
+        left: 15%;
+        color: #fff;
+        font-size: 70px;
+
+        span{
+            color: #2ed573;
+        }
+    }
+
+    &__content{
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        position: relative;
+        top: 55%;
+
+        &__item{
+            color: #fff;
+
+            div{
+                display:block;
+                text-align: center;
+            }
+
+            i{
+                font-size: 60px;
+            }
+
+            h4{
+                display: flex;
+                text-align: center;
+                justify-content: space-around;
+            }
+        }
+    }
+}
+
