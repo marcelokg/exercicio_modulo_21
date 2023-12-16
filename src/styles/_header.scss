@@ -9,8 +9,17 @@
     z-index: 1; 
 
     &__scrolling{
-        background-color: rgba(#ff6b81, 0.9);
+        background-color: rgba(#ff6b81, 0.6);
         padding: 1px 1px;
+
+        .button--assinar{
+            display: none;
+        }
+
+        .button--entrar{
+            width: 100px;
+        }
+
     }
 
     &__container{
@@ -32,5 +41,21 @@
 
     .button{
         height: 20px;
+
+        &--assinar{
+            background-color: #2ed573;
+
+            &:hover{
+                background-color: #5ed18e;
+            }
+        }
+    
+        &--entrar{
+            background-color: #2f35426c;
+
+            &:hover{
+                background-color: #4445466c;
+            }
+        }
     }
 }

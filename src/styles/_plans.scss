@@ -1,14 +1,13 @@
 
 .plans{
-    background-image: url('../../dist/images/background-plans.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 130vh;
+    height: 150vh;
 
     h2{
-        font-size: 50px;
+        text-transform: uppercase;
+        font-size: 60px;
         text-align: center;
-        padding-top: 70px;
+        padding-top: 100px;
+        padding-bottom: 40px;
         color: #fff;
     }
 
@@ -21,15 +20,15 @@
             text-align: center;
 
             h3{
-                padding-top: 60px;
+                padding-top: 50px;
                 text-align: center;
-                font-size: 50px;
+                font-size: 40px;
             }
 
             h4{
                 padding-top: 10px;
                 text-align: center;
-                font-size: 42px;
+                font-size: 32px;
             }
 
             img{
@@ -41,19 +40,19 @@
                 top: -35px;
                 background-image: url('../../dist/images/plano-popular.png');
                 background-size: cover;
-                padding: 20px;
+                padding: 20px 40px;
             }
 
             &:nth-child(1){
                 background-image: url('../../dist/images/planos.png');
                 background-size: cover;
-                padding: 20px;
+                padding: 20px 40px;
             }
             
             &:nth-child(3){
                 background-image: url('../../dist/images/planos.png');
                 background-size: cover;
-                padding: 20px;
+                padding: 20px 40px;
             }
         }
     }
@@ -68,6 +67,10 @@
         margin-bottom: 15px;
         border-radius: 15px;
         border: none;
+
+        &:hover{
+            background-color: #ff6572;
+        }
     }
 }
 
