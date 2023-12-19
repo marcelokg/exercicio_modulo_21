@@ -14,6 +14,10 @@
             font-size: 13px;
             font-weight: lighter;
             padding-top: 10px;
+
+            @media (max-width: 768px){
+                font-size: 11px;
+            }
         }
     }
 
@@ -31,14 +35,20 @@
 
         &__main{
 
+            
             &__item{
                 display: inline-block;
-    
+                
                 a{
                     padding: 8px 40px;
                     display: block;
                     color: #e0e0e0;
                     font-weight: 900;
+
+                    @media (max-width: 768px){
+                        padding: 0 5px;
+                        font-size: 12px;
+                    }
                 }
             }
         }
@@ -54,6 +64,11 @@
                     color: #e0e0e0;
                     font-size: 13px;
                     font-weight: lighter;
+
+                    @media (max-width: 768px){
+                        padding: 0 5px;
+                        font-size: 12px;
+                    }
                 }
             }
         }

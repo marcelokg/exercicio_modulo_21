@@ -9,6 +9,12 @@
         padding-top: 100px;
         padding-bottom: 40px;
         color: #fff;
+
+        @media (max-width: 768px){
+            font-size: 40px;
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
     }
 
     &__list{
@@ -16,8 +22,18 @@
         padding: 40px 15px;
         justify-content: space-around;
 
+        @media (max-width: 768px){
+            display: block;
+            margin-right: 10px;
+        }
+
         &__item{
             text-align: center;
+
+            
+            @media (max-width: 768px){
+                margin-bottom: 30px;
+            }
 
             h3{
                 padding-top: 50px;
@@ -41,6 +57,10 @@
                 background-image: url('../../dist/images/plano-popular.png');
                 background-size: cover;
                 padding: 20px 40px;
+
+                @media (max-width: 768px){
+                    top: 0;
+                }
             }
 
             &:nth-child(1){
@@ -70,6 +90,13 @@
 
         &:hover{
             background-color: #ff6572;
+        }
+
+        
+        @media (max-width: 768px){
+            width: 90%;
+            font-size: 14px;
+            padding: 15px 10px;
         }
     }
 }

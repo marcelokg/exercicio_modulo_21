@@ -16,6 +16,13 @@
         span{
             color: #2ed573;
         }
+
+        
+        @media (max-width: 768px){
+            font-size: 40px;
+            left: 0%;
+            text-align: center;
+        }
     }
 
     &__content{
@@ -34,13 +41,14 @@
             }
 
             i{
-                font-size: 60px;
+                font-size: 40px;
             }
 
             h4{
                 display: flex;
                 text-align: center;
                 justify-content: space-around;
+                font-size: 14px;
             }
         }
     }

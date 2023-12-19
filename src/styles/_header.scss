@@ -17,6 +17,9 @@
         }
 
         .button--entrar{
+            position: relative;
+            right: -60px;
+            top: auto;
             width: 100px;
         }
 
@@ -26,16 +29,31 @@
         max-width: 1280px;
         margin: auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; 
+
+        
+        @media (max-width: 768px){
+            display: flex;
+            right: 0;
+            top: 0;
+            justify-content: left;
+        }
     }
 
     &__logo{
         max-width: 200px;
         width: 100%;
+
+        @media (max-width: 768px){
+            width: 170px;
+        }
     }
 
     &__links{
         display: flex;
+        position: relative;
+        right: -30px;
+
 
     }
 
@@ -48,6 +66,11 @@
             &:hover{
                 background-color: #5ed18e;
             }
+
+            
+            @media (max-width: 768px){
+                font-size: 11px;
+            }
         }
     
         &--entrar{
@@ -55,6 +78,10 @@
 
             &:hover{
                 background-color: #4445466c;
+            }
+
+            @media (max-width: 768px){
+                font-size: 11px;
             }
         }
     }
